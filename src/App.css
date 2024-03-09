@@ -1,0 +1,163 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.todo-app-container{
+  padding-left: 15rem;
+}
+.heading{
+  background-color: crimson;
+  width: fit-content;
+  padding: 10px;
+  margin-left: 300px;
+  border: 2px solid  aliceblue;
+  border-radius: 10px;
+}
+.task-input{
+  width:35rem;
+  height:30px;
+  padding-right: 100px;
+  margin-right: 17px;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.task-input:hover{
+  background-color:rgb(240, 248, 255,0.5);
+  color: black;
+}
+.add-button{
+  width:7rem;
+  height:35px;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  background-color: chartreuse;
+  border-radius: 10px;
+  font-weight: bolder;
+  transition: 0.25s ease;
+}
+.add-button:hover{
+  background-color:rgba(127,255,0,0.4);
+  cursor: pointer;
+}
+.text{
+  width:25rem;
+  height:30px;
+  padding: 2px 65px 0px 5px;
+  margin:0.5rem;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  margin-right: 3rem;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+.text:hover{
+  background-color:rgb(240, 248, 255,0.5);
+  color: black;
+}
+.delete-button{
+  width:7rem;
+  height:35px;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  background-color:orangered;
+  border-radius: 10px;
+  font-weight: bolder;
+  transition: 0.25s ease;
+  margin-right:15px;
+}
+.delete-button:hover{
+  background-color:rgba(255,69,0,0.4);
+  cursor: pointer;
+}
+.moveup-button{
+  width:3rem;
+  height:35px;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  border-radius: 10px;
+  font-weight: bolder;
+  transition: 0.25s ease;
+  margin-right:15px;
+}
+.moveup-button:hover{
+  background-color:rgb(240, 248, 255,0.5);
+  cursor: pointer;
+}
+.movedown-button{
+  width:3rem;
+  height:35px;
+  font-size:1rem;
+  border: 2px solid  aliceblue;
+  border-radius: 10px;
+  font-weight: bolder;
+  transition: 0.25s ease;
+  margin-right:15px;
+}
+.movedown-button:hover{
+  background-color:rgb(240, 248, 255,0.5);
+  cursor: pointer;
+}
+@media (min-width:320px) {
+  .todo-app-container{
+    padding-left: 0.2rem;
+  }
+  .heading{
+    font-size:30px;
+    background-color: crimson;
+    width: fit-content;
+    padding: 2px;
+    margin-left: 35px;
+    border: 2px solid  aliceblue;
+    border-radius: 10px;
+  }
+  .task-input{
+    width:10rem;
+    height:30px;
+    padding-right: 20px;
+    margin-right: 10px;
+    font-size:1rem;
+    border: 2px solid  aliceblue;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  .task-input:hover{
+    background-color:rgb(240, 248, 255,0.5);
+    color: black;
+  }
+  .add-button{
+    width:5rem;
+    height:35px;
+    font-size:1rem;
+    border: 2px solid  aliceblue;
+    background-color: chartreuse;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.25s ease;
+  }
+  .add-button:hover{
+    background-color:rgba(127,255,0,0.4);
+    cursor: pointer;
+  }
+  .text{
+    width:10rem;
+    height:30px;
+    padding: 2px 65px 0px 5px;
+    margin:0.5rem;
+    font-size:1rem;
+    border: 2px solid  aliceblue;
+    margin-right: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-flex;
+  }
+  .text:hover{
+    background-color:rgb(240, 248, 255,0.5);
+    color: black;
+  }
+}
